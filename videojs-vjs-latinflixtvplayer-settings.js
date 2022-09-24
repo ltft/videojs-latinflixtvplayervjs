@@ -279,24 +279,7 @@ function getExt(ext) {
 
   return ext;
 }
-(function(window, videojs) {
-      var player = window.player = videojs('latinflixtvplayer1');
-      player.overlay({
-        content: 'Default overlay content',
-        debug: true,
-        overlays: [{
-          content: 'GOLDEN GLOBES AWARDS 2019',
-          start: 'loadstart',
-          end: 8,
-          align: 'top-right'
-        },, {
-          content: 'Si se corta la transmisión; recargar la página y verificar si se soluciona',
-          start: 60,
-          end: 80,
-          align: 'top'
-        }]
-      });
-    }(window, window.videojs));
+
  
 
 
